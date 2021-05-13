@@ -18,21 +18,35 @@
     <script>
         new window.VLibras.Widget('https://vlibras.gov.br/app');
     </script>
-    <header>
-        <nav>
-
-        </nav>
+    <script text="text/javascript" src="./js/script.js"></script>
+    <div class="fundo"></div>
+    <header id="menu">
+        <div class="header-content">
+            <img src="./img/logo.png" alt="Logotipo">
+            <!-- Menu -->  
+            <nav>
+                <ul class="menu">
+                    <li><a href="index.html">Página Inicial</a></li>
+                    <li><a href="#">Sobre Nós</a></li>
+                    <li><a href="#" class="btn-login">Login</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main>
+        <!--  Opacidade -->  
+        <div class="opacity"></div>
+        <!--  Pesquisa -->  
         <section id="pesquisa">
             <div class="conteudo">
                 <h1>Para onde será sua próxima viagem?</h1>
                 <form action="#">
                     <input class="btn-pesquisa" type="text" placeholder="Escreva o país, estado ou cidade de destino">
-                    <button></button>
+                    <button>P</button>
                 </form>
             </div>
         </section>
+        <!--  Anúncios/Cupons -->  
         <section id="anuncio">
             <div class="box">
                 <div class="box-content">
@@ -53,9 +67,9 @@
                     <a href="#" class="btn-white">Confira agora</a>
                 </div>
             </div>
-        </section>        
+        </section>     
+        <!--  Destinos populares -->   
         <section id="populares">
-            <!-- <h2> Destinos populares</h2>--->
             <div class="pop">
                 <div class="conteudo-popular">
                     <h3>Orlando</h3>
@@ -66,13 +80,13 @@
                 <div class="conteudo-popular">
                     <h3>Paris</h3>
                     <a href="#" class="btn-outline">Ver dicas</a>
-
                 </div>
             </div>
             <div class="pop">
                 <div class="conteudo-popular">
                     <h3>Toronto</h3>
                     <a href="#" class="btn-outline">Ver dicas</a>
+                </div>
             </div>
             <div class="pop">
                 <div class="conteudo-popular">
@@ -88,8 +102,10 @@
             </div>
         </section>
     </main>
-    <footer>
-
+    <footer class="final">
+        <div class="conteudo-footer">
+            <h1>Senhor Jeová</h1>
+        </div>
     </footer>
 </body>
 </html>
