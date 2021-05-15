@@ -90,7 +90,6 @@ a{
     padding: 20px;
     vertical-align: middle;
 }
-   */
 .menu > li {
     padding: 5px 20px;
 }
@@ -109,6 +108,7 @@ a{
     border-radius: 5px;
     transition: 0.2s ease-in-out;
 }
+
 /* FIM MENU */
 
 main {
@@ -342,6 +342,7 @@ footer {
     width: 90vw;
     margin: 0 auto;
 }
+
 /* 
 @media (min-width: 576px) {
     h1{
@@ -400,4 +401,4 @@ footer {
 
 @media (min-width: 1400px) { 
     
- } */
+ } 
