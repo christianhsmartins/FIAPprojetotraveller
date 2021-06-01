@@ -325,14 +325,12 @@ input::placeholder {
 }
 
 /* DESTINOS */
-.container{
-    margin: 0;
-    padding: 0;
-}
+
 .card{
     width: 18rem;
     height: 27rem;
 }
+
 .card-img-top {
     width: 18rem;
     height: 12rem;
@@ -340,6 +338,11 @@ input::placeholder {
 
 .card-text {
     font-size: 15px;
+}
+.accordion{
+    align-items: center;
+    height: 50%;
+
 }
 
 /*FOOTER */
