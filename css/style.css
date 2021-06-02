@@ -324,26 +324,6 @@ input::placeholder {
     border-radius: 5px;
 }
 
-/* DESTINOS */
-
-.card{
-    width: 18rem;
-    height: 27rem;
-}
-
-.card-img-top {
-    width: 18rem;
-    height: 12rem;
-}
-
-.card-text {
-    font-size: 15px;
-}
-.accordion{
-    align-items: center;
-    height: 50%;
-
-}
 
 /*FOOTER */
 

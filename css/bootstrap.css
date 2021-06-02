@@ -1,5 +1,23 @@
 
 
-a {
-   text-decoration: none;
+/* DESTINOS */
+
+.card{
+   width: 18rem;
+   height: 27rem;
 }
+
+.card-img-top {
+   width: 18rem;
+   height: 12rem;
+}
+
+.card-text {
+   font-size: 15px;
+}
+.accordion{
+   align-items: center;
+   height: 50%;
+}
+
+
