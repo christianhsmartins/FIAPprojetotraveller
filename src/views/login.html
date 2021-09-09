@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Targets -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- View Port -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title -->
+    <title>Faça Login</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="/public/styles/global.css">
+    <link rel="stylesheet" href="/public/styles/login.css">
+    <!-- Fonts -->
+</head>
+<body>
+    <div id="login" class="content">
+        <header>
+            <section id="acessibilidade">
+                <ul id="menu-acessivel">
+                    <li>
+                        <a href="#">
+                            <img src="/public/images/Libras.svg" alt="Libras">
+                            Libras
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="/public/images/Contraste.svg" alt="Contraste">
+                            Contraste
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="/public/images/Teclado.svg" alt="Teclado Virtual">
+                            Teclado Virtual
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="/public/images/Fonte.svg" alt="Fonte">
+                            Fonte
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            <section id="header-geral">
+                <a href="/src/views/index.html">
+                    <img src="/public/images/Logo.svg" alt="Projeto Traveller Logo">
+                </a>
+                <ul id="menu">
+                    <li><a href="#">Página inicial</a></li>
+                    <li><a href="#">Sobre nós</a></li>
+                    <li><a href="#">Login</a></li>
+                    <li><a href="#" class="button">Criar conta</a></li>
+                </ul>
+            </section>
+        </header>
+        <div id="imagem-destaque">
+            <img src="/public/images/bg-login-image.svg" alt="Menina">
+        </div>
+        <main>
+            <div class="container">
+                <p>Faça login para ter uma experiência mais completa na sua navegação.</p>
+                <form action="" method="POST">
+                    <div class="bloco">
+                        <label for="email">E-mail:</label>
+                        <input type="email" name="email" id="email" placeholder="Insira seu e-mail" maxlength="50">
+                    </div>
+                    <div class="bloco">
+                        <label for="senha">Senha:</label>
+                        <input type="password" name="senha" id="senha" placeholder="Insira sua senha" maxlength="8">
+                    </div>
+                    <div class="bloco-h">
+                        <div class="lembrar-btn">
+                            <input type="radio" name="lembrar" id="lembrar">
+                            <label for="lembrar">Lembrar senha</label>
+                        </div>
+                        <a href="#" class="link-style">Esqueceu a senha?</a>
+                    </div>
+                    <button>Login</button>
+                </form>
+                <div class="bloco-cadastro">
+                    <p>Ainda não tem uma conta?</p>
+                    <a href="#" class="link-style">Criar conta</a>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

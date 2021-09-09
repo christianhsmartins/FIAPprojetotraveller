@@ -1,7 +1,5 @@
 #Projeto Traveller - Acessibilidade
 
-👀🟥🟩👓
-
 O projeto foi desenvolvido para ser acessível à todos os públicos, mas foi elaborado de uma forma que facilitasse a interação entre usuários com baixa visão, dislexia, daltonismo e deficiência auditiva.
 
 A página web foi idealizada e projetada utilizando uma fonte com peso que viabilize a usabilidade de usuários com dislexia. Além disso, contem ícones separados e com foco direto para melhorar a interação com usuários de baixa visão. 
