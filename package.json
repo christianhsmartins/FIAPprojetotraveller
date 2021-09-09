@@ -1,0 +1,27 @@
+{
+  "name": "FIAPprojetotraveller",
+  "version": "1.0.0",
+  "description": "Projeto desenvolvido para a FIAP.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christianhsmartins/FIAPprojetotraveller.git"
+  },
+  "keywords": [],
+  "author": "Christian Martins, Rafaela de Araujo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/christianhsmartins/FIAPprojetotraveller/issues"
+  },
+  "homepage": "https://github.com/christianhsmartins/FIAPprojetotraveller#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
