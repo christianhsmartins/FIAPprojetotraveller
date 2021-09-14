@@ -19,7 +19,7 @@ Firebase     | 8.0.0
 
 Nas últimas atualizações que fizemos neste código, aplicamos:
 
-1. Conexão com o firebase:;
+1. Conexão com o firebase:
 1.1 Login com senha e e-mail;
 1.2 Login com uma conta Google;
 
