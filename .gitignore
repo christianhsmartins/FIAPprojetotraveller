@@ -1,3 +1,5 @@
+*.vscode
+.vscode/
 img/.DS_Store
 *.DS_Store
 *.env
