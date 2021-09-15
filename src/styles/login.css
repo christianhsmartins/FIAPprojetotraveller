@@ -88,9 +88,11 @@ input::placeholder {
   align-items: center;
   justify-content: center;
   margin: 2.4rem 0;
-  font-size: 1.8rem;
+}
+
+.separator p {
+  font-size: 1.6rem;
   font-family: 'Lato', sans-serif;
-  font-weight: bold;
   color: #3a3a3a;
 }
 

@@ -1,5 +1,4 @@
 // Importando dependências
-import { firebase, auth } from '../auth/firebase';
 import { useHistory } from 'react-router-dom';
 // Importando estilos
 import '../styles/login.css';
@@ -9,18 +8,18 @@ import googleIconImg from '../assets/images/google-icon.svg';
 import illustrationImg from '../assets/images/illustration.svg';
 // Importando componentes
 import { Button } from '../components/Button';
+import { useAuth } from '../hooks/useAuth';
 // Importando controles
 
 export function Login() {
 
   const history = useHistory();
+  const { user, signInWithGoogle } = useAuth();
 
-  function handleLoginWithGoogle() {
-    const provider = new firebase.auth.GoogleAuthProvider();
-
-    auth.signInWithPopup(provider).then(result => {
-      console.log(result);
-    });
+  async function LoginComGoogle() {
+    if (!user) {
+       await signInWithGoogle() ;
+    };
 
     history.push('/profile');
   }; 
@@ -29,7 +28,7 @@ export function Login() {
     <div id="content">
       <main>
         <img src={logoImg} alt="Projeto Traveller" />
-        <button onClick={handleLoginWithGoogle}>
+        <button onClick={LoginComGoogle}>
           <img src={googleIconImg} alt="Logo do Google" />
           Entrar com Google
         </button>
