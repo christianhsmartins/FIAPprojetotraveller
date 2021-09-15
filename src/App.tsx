@@ -9,8 +9,8 @@ function App() {
   return (
     <BrowserRouter>
       <Route path="/" exact component={Login} />
-      <Route path="/rooms/new" component={Cadastro} />
-      <Route path="/rooms/new" component={Profile} />
+      <Route path="/cadastro" component={Cadastro} />
+      <Route path="/profile" component={Profile} />
     </BrowserRouter>
   );
 }
