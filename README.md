@@ -11,7 +11,7 @@ Tecnologia   | Versão
 Sass         | 5.0.0
 JavaScritp   | n/i
 TypeScript   | n/i
-React        | n/i
+React        | 4.0.3
 Node         | n/i
 Firebase     | 8.0.0
 
@@ -30,3 +30,7 @@ A página web foi idealizada e projetada utilizando uma fonte com peso que viabi
 Pensando no público daltônico foi utilizado uma paleta de cores com alto contraste, além de deixar disponível a opção de aumentar o contraste caso o usuário prefira. 
 
 Com a intenção de prover uma excelente experiência aos usuários com deficiência auditiva utilizamos o VLibras que traduz conteúdos digitais para Libras em Português.
+
+### Aviso aos professores:
+
+14.09.2021 - Como estamos fazendo algumas migrações na estrutura do nosso código e funcionamento do nosso sistema, para a atividade de API's, deixamos disponível apenas a area de Login.
