@@ -1,6 +1,6 @@
 # Projeto Traveller
 
-# Estamos atualizando para a atividade do Heroku
+# Tivemos que resetar a nossa estrutura para poder colocar na atividade do Heroku, por favor, procure-nos caso precise tirar dúvidas: +5511963211950 
 
 ### Sobre o Projeto:
 
