@@ -1,7 +1,9 @@
 // Importando dependências
 import { useAuth } from '../hooks/useAuth';
+import '../controllers/AuthContext';
 // Importando estilos
 import '../styles/global.css'
+import '../styles/profile.css'
 // Importando assets
 // Importando componentes
 // Importando controles
@@ -12,8 +14,14 @@ export function Profile() {
 
   return (
     <div>
-      <h1>{user?.name}</h1>
-      <h1>Perfil do usuário, deu certo!</h1>
+      <main>
+        <section>
+          <img src={user?.avatar} alt="" />
+          <div className="info">
+            <h1>Nome do usuário: {user?.name}</h1>
+          </div>
+        </section>
+      </main>
     </div>
   )
 };
