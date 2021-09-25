@@ -1,8 +1,8 @@
 // Importando dependências
 import { BrowserRouter, Route } from 'react-router-dom';
 // Importando páginas
-import { Login } from './pages/login';
-import { Hospedagem } from './pages/hospedagem';
+import { Login } from './pages/Login';
+import { Hospedagem } from './pages/Hospedagem';
 import { Profile } from './pages/Profile';
 import { AuthContextProvider } from './controllers/AuthContext';
 
