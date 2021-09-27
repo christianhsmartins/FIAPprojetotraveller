@@ -1,8 +1,19 @@
-// Importações
+// Importando dependências
+import { BrowserRouter, Route } from 'react-router-dom';
+// Importando páginas
+import { Login } from './pages/Login';
+import { Profile } from './pages/Profile';
+import { AuthContextProvider } from './controllers/AuthContext';
 
 function App() {
+
   return (
-    <h1>Em teste</h1>
+    <BrowserRouter>
+      <AuthContextProvider>
+        <Route path="/" exact component={Login} />
+        <Route path="/profile" component={Profile} />
+      </AuthContextProvider>
+    </BrowserRouter>
   );
 }
 
