@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: 'Lato', sans-serif;
+}
+
+html, body {
+    max-width: 100vw;
+    max-width: 100vh;
+    height: 100%;
+    width: 100%;
+    background: var(--bg-light);
+}
+
+.container {
+    max-width: 1312px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 1.6rem;
+}
+
+:root {
+    /* brand */
+    --principal: #1F78FF;
+    --secundaria: #95BFFF;
+    --selected: linear-gradient(90deg, #1F78FF 0%, #0957E9 100%);
+    /* text */
+    --txt-white: #fff;
+    --txt-black: #000;
+    --txt-light: #000;
+    --txt-dark: #3a3a3a;
+    --txt-place-holder: #7B7B7B;
+    /* backgrounds */
+    --bg-light: #f4f4f4;
+    --bg-dark: #2D303A;
+    --bg-gray: #E6E6E6;
+    --bg-icon: #D6DEE7;
+    /* warning */
+    --warning-sucess: #4DAF50;
+    --warning-alert: #FFD84E;
+    --warning-error: #F04E3F;
+    --waning-info: #0B7BFF;
+};
