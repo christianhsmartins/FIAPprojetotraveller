@@ -62,13 +62,11 @@ header .container {
     }
 }
 
-nav {
+.menu-desktop {
     height: 7.8rem;
     width: 100vw;
     background: #fff;
 }
-
-
 
 @media (max-width: 700px) {
     .menu-desktop {
@@ -82,27 +80,25 @@ nav {
 
 @media (max-width: 700px) {
     .menu-mobile {
-        position: fixed;
+        height: 7.8rem;
+        width: 100vw;
         bottom: 0;
+        position: fixed;
+        background: #fff;
     }
 
     .menu-mobile .container {
         display: flex;
-        align-items: center;
-    }
-
-    .menu-mobile .container ul {
-        display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 100%;
     }
 
-    .menu-mobile .container ul li {
-        width: 4.8rem;
-        height: 4.8rem;
+    .menu-mobile .container a {
         display: flex;
         justify-content: center;
         align-items: center;
+
+        width: 4.8rem;
+        height: 4.8rem;
     }
 }
