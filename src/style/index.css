@@ -8,6 +8,7 @@
     width: 100%;
     height: 100%;
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 
@@ -29,6 +30,7 @@ input:placeholder {
 /* Filtro principal */
 
 .atividade {
+    width: 100vw;
     padding-top: 1.6rem;
 }
 
@@ -64,4 +66,70 @@ input:placeholder {
 
 .filtro-active {
     background: var(--selected);
+}
+
+/* Publicações */
+
+.lista-post {
+    display: flex;
+}
+
+.postagem {
+    max-width: 19.6rem;
+    max-height: 25.9rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: .8rem;
+    background: #fff;
+    border-radius: 1.6rem;
+    margin-right: 1.6rem;
+}
+
+.postagem .imagem{
+    height: 19.1rem;
+    width: 100%;
+    margin-bottom: .8rem;
+}
+
+.postagem .imagem img{
+    max-height: 19.1rem;
+    width: 100%;
+    margin-bottom: .8rem;
+    border-radius: .8rem;
+}
+
+.icon {
+    position: relative;
+}
+
+.icon img{
+    position: absolute;
+    right: 0;
+    margin: .8rem;
+    max-height: 2.4rem;
+    max-width: 2.4rem;
+}
+
+.postagem p {
+    width: 100%;
+    margin-bottom: .8rem;
+}
+
+.postagem .rate {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.postagem .rate img {
+    max-height: 1.4rem;
+    max-width: 1.4rem;
+}
+
+.postagem .rate span {
+    color: var(--text-dark);
+    font-size: 1.2rem;
+    font-family: 'Lato', sans-serif;
 }
